@@ -19,7 +19,7 @@ function Navbar() {
 
   return (
     <div>
-      <nav className="bg-white border-gray-200 border-b-2">
+      <nav className="bg-white/80 border-gray-200 border-b-2 fixed top-0 left-0 w-full z-50 backdrop-blur-md shadow-md">
         <div className="max-w-screen-xl items-center justify-between mx-auto p-6 grid grid-cols-3">
           <a href='#' className="w-min self-center text-2xl font-cinzel whitespace-nowrap">JA GRIFES</a>
 
@@ -54,7 +54,7 @@ function Navbar() {
         </div>
       </nav>
 
-      <nav className='mx-20 my-2'>
+      <nav className='mx-20 my-2 pt-24'>
         <ul className="flex flex-wrap items-center justify-center font-poppins text-sm">
           <li>
             <a href="#" className="me-2 hover:text-gray-700 md:me-6">MALHA CHINESA</a>
