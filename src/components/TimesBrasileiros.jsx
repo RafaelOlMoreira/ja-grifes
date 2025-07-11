@@ -19,11 +19,18 @@ function TimesBrasileiros() {
 
                 <div className='border-1 border-gray-200 p-4 w-full h-full flex flex-col'>
                     <img src={atletico} className='hover:scale-102' />
-                    <h6 className='mt-4 mb-6 font-poppins'>Atlético Mineiro Titular 25-26 com Patrocínio Principal</h6>
-                    <div className='grid grid-cols-3 items-center h-auto mt-auto'>
-                        <span className='font-poppins text-gray-600 line-through'>R$ 130.00</span>
-                        { /* span de desconto (se houver) */ }
-                        <span className='font-poppins text-red-500'>R$ 65.00</span>
+                    <h6 className='mt-2 mb-2 font-poppins'>Atlético Mineiro Titular 25-26 com Patrocínio Principal</h6>
+                    <div className='grid grid-cols-2 items-center h-auto mt-auto'>
+                        <div className='col-span-1'>
+                            <div className='grid-rows-2'>
+                                <div className='row-span-1'>
+                                    <span className='font-poppins text-gray-600 line-through'>R$ 85.00</span>
+                                </div>
+                                { /* span de desconto (se houver) */}
+                                <span className='font-poppins text-red-500'>R$ 65.00</span>
+                            </div>
+                        </div>
+                        { /* span de desconto (se houver) */}
                         <div className='flex justify-end gap-2'>
                             <a href="" className='border-1 rounded-md p-1 hover:bg-gray-400 hover:text-white'>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-5">

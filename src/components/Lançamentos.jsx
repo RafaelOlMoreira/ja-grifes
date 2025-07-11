@@ -11,14 +11,20 @@ function Lançamentos() {
             <h6 className='font-poppins text-4xl text-center mb-6'><span className='border-b-2 border-b-gray-900'>LANÇAMENTOS</span></h6>
 
             <div className='grid grid-cols-5'>
-                
+
                 <div className='border-1 border-gray-200 p-4 w-full h-full flex flex-col'>
                     <img src={produto1} className='hover:scale-102' />
-                    <h6 className='mt-4 mb-6 font-poppins'>Barcelona Edição Especial 25-26</h6>
-                    <div className='grid grid-cols-3 items-center h-auto mt-auto'>
-                        <span className='font-poppins text-gray-600 line-through'>R$ 85.00</span>
-                        { /* span de desconto (se houver) */ }
-                        <span className='font-poppins text-red-500'>R$ 65.00</span>
+                    <h6 className='mt-2 mb-2 font-poppins'>Barcelona Edição Especial 25-26</h6>
+                    <div className='grid grid-cols-2 items-center h-auto mt-auto'>
+                        <div className='col-span-1'>
+                            <div className='grid-rows-2'>
+                                <div className='row-span-1'>
+                                    <span className='font-poppins text-gray-600 line-through'>R$ 85.00</span>
+                                </div>
+                                { /* span de desconto (se houver) */}
+                                <span className='font-poppins text-red-500'>R$ 65.00</span>
+                            </div>
+                        </div>
                         <div className='flex justify-end gap-2'>
                             <a href="" className='border-1 rounded-md p-1 hover:bg-gray-400 hover:text-white'>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-5">
@@ -33,7 +39,7 @@ function Lançamentos() {
                         </div>
                     </div>
                 </div>
-                
+
                 <div className='border-1 border-gray-200 p-4 w-full h-full flex flex-col'>
                     <img src={produto2} className='hover:scale-102' />
                     <h6 className='mt-4 mb-6 font-poppins'>Bayern de Munique Titular 25-26</h6>
@@ -53,7 +59,7 @@ function Lançamentos() {
                         </div>
                     </div>
                 </div>
-                
+
                 <div className='border-1 border-gray-200 p-4 w-full h-full flex flex-col'>
                     <img src={produto3} className='hover:scale-102' />
                     <h6 className='mt-4 mb-6 font-poppins'>PSG Titular 25-26</h6>
@@ -73,7 +79,7 @@ function Lançamentos() {
                         </div>
                     </div>
                 </div>
-                
+
                 <div className='border-1 border-gray-200 p-4 w-full h-full flex flex-col'>
                     <img src={produto4} className='hover:scale-102' />
                     <h6 className='mt-4 mb-6 font-poppins'>Inter de Milão Titular 25-26</h6>
@@ -93,7 +99,7 @@ function Lançamentos() {
                         </div>
                     </div>
                 </div>
-                
+
                 <div className='border-1 border-gray-200 p-4 w-full h-full flex flex-col'>
                     <img src={produto4} className='hover:scale-102' />
                     <h6 className='mt-4 mb-6 font-poppins'>Inter de Milão Titular 25-26</h6>
