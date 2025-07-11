@@ -33,7 +33,7 @@ function Navbar() {
     <div>
       <nav className="bg-white/80 border-gray-200 border-b-2 fixed top-0 left-0 w-full z-50 backdrop-blur-md shadow-md">
         <div className="max-w-screen-xl items-center justify-between mx-auto p-6 grid grid-cols-3">
-          <Link to="../main" className="w-min self-center text-2xl font-cinzel whitespace-nowrap">JA GRIFES</Link>
+          <Link to="../" className="w-min self-center text-2xl font-cinzel whitespace-nowrap">JA GRIFES</Link>
 
           <div className='grid-cols-2'>
             <div className="flex px-4 py-3 rounded-b-none border-l-2 border-gray-300 overflow-hidden max-w-md mx-auto">
