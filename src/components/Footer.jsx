@@ -39,15 +39,29 @@ function Footer() {
                             </ul>
                         </div>
                     </div>
-                    <div className="grid grid-cols-1 gap-8 sm:gap-6 sm:grid-cols-2">
+                    <div className="grid grid-cols-2 gap-8 sm:gap-6 mt-auto">
                         <div>
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Sobre Nós</h2>
                             <ul className="text-gray-600 dark:text-gray-400">
                                 <li className="mb-4">
-                                    <a href="#" className='hover:underline hover:text-gray-200'>Minha Conta</a>
+                                    <a href="#" className='hover:underline hover:text-gray-200'>Quem Somos</a>
+                                </li>
+                                <li className="mb-4">
+                                    <a href="#" className='hover:underline hover:text-gray-200'>Nossas Redes</a>
                                 </li>
                                 <li className="mb-4">
                                     <a href="#" className='hover:underline hover:text-gray-200'>Fale Conosco</a>
+                                </li>
+                                <li>
+                                    <a href="#" className='hover:underline hover:text-gray-200'>Termo e Condições</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Sobre Você</h2>
+                            <ul className="text-gray-600 dark:text-gray-400">
+                                <li className="mb-4">
+                                    <a href="#" className='hover:underline hover:text-gray-200'>Minha Conta</a>
                                 </li>
                                 <li className="mb-4">
                                     <a href="#" className='hover:underline hover:text-gray-200'>Lista de Desejos</a>
@@ -55,8 +69,8 @@ function Footer() {
                                 <li className="mb-4">
                                     <a href="#" className='hover:underline hover:text-gray-200'>Meu Carrinho</a>
                                 </li>
-                                <li>
-                                    <a href="#" className='hover:underline hover:text-gray-200'>Termo e Condições</a>
+                                <li className="mb-4">
+                                    <a href="#" className='hover:underline hover:text-gray-200'>Pedidos</a>
                                 </li>
                             </ul>
                         </div>
