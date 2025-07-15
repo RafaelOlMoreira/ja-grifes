@@ -92,19 +92,39 @@ function Navbar() {
           <li><a href="#" className="me-2 hover:text-gray-700 md:me-6">GRIFE ITALIANA</a></li>
           <li ref={dropdownRef}>
             <div className="relative inline-flex" onMouseEnter={() => setIsDropdownOpen(true)} onMouseLeave={() => setIsDropdownOpen(false)}>
-              <button type="button" className={`flex me-2 hover:text-gray-700 md:me-6 ${isDropdownOpen ? 'bg-gray-50' : ''}`}>
+              <button type="button" className={`flex items-center me-2 hover:text-gray-700 md:me-6 font-medium rounded-lg text-sm py-2.5 ${isDropdownOpen ? '' : ''}`} >
                 MAIS CATEGORIAS
-                <svg className={`size-4 transition-transform ${isDropdownOpen ? 'rotate-180' : ''}`} xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="m6 9 6 6 6-6" />
+                <svg className={`w-2.5 h-2.5 ms-2 transition-transform ${isDropdownOpen ? 'rotate-180' : ''}`} aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6" >
+                  <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4" />
                 </svg>
               </button>
-              <div className={`absolute left-0 top-full z-[999] min-w-48 bg-white shadow-lg rounded-md mt-1 transition-all duration-200 ${isDropdownOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'}`}>
-                <div className="py-1">
-                  <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="#">CASACOS</a>
-                  <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="#">CALÇAS</a>
-                  <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="#">ACESSÓRIOS</a>
-                  <a className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" href="#">PROMOÇÕES</a>
-                </div>
+
+              <div
+                className={`absolute left-0 top-full z-[999] min-w-48 bg-white shadow-lg rounded-md mt-1 transition-all duration-200 divide-y divide-gray-100 ${isDropdownOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'
+                  }`}
+              >
+                <ul className="py-2 text-sm text-gray-700">
+                  <li>
+                    <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+                      CASACOS
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+                      CALÇAS
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+                      ACESSÓRIOS
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+                      PROMOÇÕES
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
           </li>
