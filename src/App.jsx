@@ -6,7 +6,7 @@ import TimesBrasileiros from './components/TimesBrasileiros.jsx';
 import TimesInternacionais from './components/TimesInternacionais.jsx';
 import InfoLoja from './components/InfoLoja.jsx';
 import Footer from './components/Footer.jsx';
-import Login from './pages/Login.jsx'; // Ajuste o caminho conforme necessário
+import Login from './pages/Login.jsx';
 
 function App() {
   return (

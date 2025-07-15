@@ -79,6 +79,20 @@ function Login() {
                             >
                                 Acessar
                             </button>
+                            <div className="flex items-center gap-2">
+                                <hr className="flex-grow border-gray-300" />
+                                <span className="text-gray-500 bg-white px-2">Ou</span>
+                                <hr className="flex-grow border-gray-300" />
+                            </div>
+                            <div className="flex items-center justify-center">
+                                <button
+                                    type="submit"
+                                    className="hover:bg-gray-50 border border-gray-300 rounded-3xl p-2 w-2/3 hover:cursor-pointer"
+                                >
+                                    Continuar com o Google
+                                </button>
+                            </div>
+
                         </form>
                     </div>
                 </section>
