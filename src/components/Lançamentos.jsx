@@ -2,7 +2,7 @@ import React from 'react'
 
 import barcelona from '../assets/barcelona.jpg'
 import bayern from '../assets/bayern.jpg'
-import psgtitular from '../assets/psgtitular.jpg'
+import psgtitular from '../assets/psg-titular.jpg'
 import intermilao from '../assets/inter-milao.jpg'
 
 function Lançamentos() {
