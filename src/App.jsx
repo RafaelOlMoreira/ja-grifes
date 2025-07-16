@@ -7,6 +7,7 @@ import TimesInternacionais from './components/TimesInternacionais.jsx';
 import InfoLoja from './components/InfoLoja.jsx';
 import Footer from './components/Footer.jsx';
 import Login from './pages/Login.jsx';
+import Pedidos from './pages/Pedidos.jsx';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           </>
         } />
         <Route path="/login" element={<Login />} />
+        <Route path="/pedidos" element={<Pedidos />} />
       </Routes>
     </>
   );
