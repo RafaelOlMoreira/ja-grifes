@@ -1,9 +1,9 @@
 import React from 'react'
 
-import produto1 from '../assets/barcelona.jpg'
-import produto2 from '../assets/bayern.jpg'
-import produto3 from '../assets/psg-titular.jpg'
-import produto4 from '../assets/inter-milao.jpg'
+import barcelona from '../assets/barcelona.jpg'
+import bayern from '../assets/bayern.jpg'
+import psgtitular from '../assets/psgtitular.jpg'
+import intermilao from '../assets/inter-milao.jpg'
 
 function Lançamentos() {
     return (
@@ -13,7 +13,7 @@ function Lançamentos() {
             <div className='grid grid-cols-5'>
 
                 <div className='border-1 border-gray-200 p-4 w-full h-full flex flex-col'>
-                    <img src={produto1} className='hover:scale-102' />
+                    <img src={barcelona} className='hover:scale-102' />
                     <h6 className='mt-2 mb-2 font-poppins'>Barcelona Edição Especial 25-26</h6>
                     <div className='grid grid-cols-2 items-center h-auto mt-auto'>
                         <div className='col-span-1'>
@@ -41,7 +41,7 @@ function Lançamentos() {
                 </div>
 
                 <div className='border-1 border-gray-200 p-4 w-full h-full flex flex-col'>
-                    <img src={produto2} className='hover:scale-102' />
+                    <img src={bayern} className='hover:scale-102' />
                     <h6 className='mt-4 mb-6 font-poppins'>Bayern de Munique Titular 25-26</h6>
                     <div className='grid grid-cols-2 items-center h-auto mt-auto'>
                         <span className='font-poppins text-red-500'>R$ 85.00</span>
@@ -61,7 +61,7 @@ function Lançamentos() {
                 </div>
 
                 <div className='border-1 border-gray-200 p-4 w-full h-full flex flex-col'>
-                    <img src={produto3} className='hover:scale-102' />
+                    <img src={psgtitular} className='hover:scale-102' />
                     <h6 className='mt-4 mb-6 font-poppins'>PSG Titular 25-26</h6>
                     <div className='grid grid-cols-2 items-center h-auto mt-auto'>
                         <span className='font-poppins text-red-500'>R$ 85.00</span>
@@ -81,7 +81,7 @@ function Lançamentos() {
                 </div>
 
                 <div className='border-1 border-gray-200 p-4 w-full h-full flex flex-col'>
-                    <img src={produto4} className='hover:scale-102' />
+                    <img src={intermilao} className='hover:scale-102' />
                     <h6 className='mt-4 mb-6 font-poppins'>Inter de Milão Titular 25-26</h6>
                     <div className='grid grid-cols-2 items-center h-auto mt-auto'>
                         <span className='font-poppins text-red-500'>R$ 85.00</span>
@@ -101,7 +101,7 @@ function Lançamentos() {
                 </div>
 
                 <div className='border-1 border-gray-200 p-4 w-full h-full flex flex-col'>
-                    <img src={produto4} className='hover:scale-102' />
+                    <img src={intermilao} className='hover:scale-102' />
                     <h6 className='mt-4 mb-6 font-poppins'>Inter de Milão Titular 25-26</h6>
                     <div className='grid grid-cols-2 items-center h-auto mt-auto'>
                         <span className='font-poppins text-red-500'>R$ 85.00</span>
