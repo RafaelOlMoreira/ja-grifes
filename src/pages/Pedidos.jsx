@@ -20,39 +20,39 @@ function Pedidos() {
                         <img src={atletico} className='size-55 rounded-t-xl' />
                     </div>
                     <div className='content-around items-center text-center'>
-                        <h2 className='font-bold text-center text-lg text-gray-800'>Atlético Mineiro Titular 25-26 com Patrocínio Principal</h2>
+                        <h2 className='font-bold text-center text-lg text-gray-800 mb-2'>Atlético Mineiro Titular 25-26 com Patrocínio Principal</h2>
 
                         <div className='grid grid-rows-3 gap-0.5 text-lg justify-center'>
-                            <div className='flex'>
-                                <h6 className='flex gap-2 text-gray-700'>Preço:</h6>
+                            <div className='flex gap-2.5'>
+                                <h6 className='text-gray-700'>Preço:</h6>
                                 <p className='font-normal text-gray-500'>R$ 249,90</p>
                             </div>
-                            <div className='flex'>
-                                <h6 className='flex gap-2 text-gray-700'>Frete:</h6>
+                            <div className='flex gap-2.5'>
+                                <h6 className='text-gray-700'>Frete:</h6>
                                 <p className='font-normal text-gray-500'>Grátis (acima de R$ 200)</p>
                             </div>
-                            <div className='flex'>
-                                <h6 className='gap-2 text-gray-700'>Total:</h6>
+                            <div className='flex gap-2.5'>
+                                <h6 className='text-gray-700'>Total:</h6>
                                 <p className='font-normal text-gray-500'>R$ 249,90</p>
                             </div>
                         </div>
-                        <h6 className='flex mt-0.5 text-xl justify-center gap-2 text-gray-700'>Status: <p className='px-1.5 text-md text-yellow-600 p-1 rounded-2xl font-semibold'>Pedido Confirmado</p></h6>
+                        <h6 className='flex mt-0.5 text-xl justify-center items-center gap-2 text-gray-700'>Status: <p className='px-1.5 text-md text-yellow-600 p-1 rounded-2xl font-semibold'>Pedido Confirmado</p></h6>
                     </div>
 
                     <div className='content-around flex items-center justify-center'>
                         <div className='grid grid-rows-3 gap-0.5 text-lg'>
-                            <div className='flex'>
-                                <h6 className='gap-2 text-gray-700'>Tamanho:</h6>
+                            <div className='flex gap-2.5'>
+                                <h6 className=' text-gray-700'>Tamanho:</h6>
                                 <p className='font-normal text-gray-500'>M</p>
                             </div>
 
-                            <div className='flex'>
-                                <h6 className='gap-2 text-gray-700'>Pedido:</h6>
+                            <div className='flex gap-2.5'>
+                                <h6 className=' text-gray-700'>Pedido:</h6>
                                 <p className='text-gray-500'>#00001</p>
                             </div>
 
-                            <div className='flex'>
-                                <h6 className='gap-2 text-gray-700'>Data:</h6>
+                            <div className='flex gap-2.5'>
+                                <h6 className=' text-gray-700'>Data:</h6>
                                 <p className='text-gray-500'>16/07/2025</p>
                             </div>
                         </div>
@@ -118,39 +118,39 @@ function Pedidos() {
                         <img src={milan} className='size-55 rounded-t-xl' />
                     </div>
                     <div className='content-around items-center text-center'>
-                        <h2 className='font-bold text-center text-lg text-gray-800'>Milan Retro 1998</h2>
+                        <h2 className='font-bold text-center text-lg text-gray-800 mb-2'>Milan Retro 1998</h2>
 
                         <div className='grid grid-rows-3 gap-0.5 text-lg justify-center'>
-                            <div className='flex'>
-                                <h6 className='flex gap-2 text-gray-700'>Preço:</h6>
+                            <div className='flex gap-2.5'>
+                                <h6 className='text-gray-700'>Preço:</h6>
                                 <p className='font-normal text-gray-500'>R$ 249,90</p>
                             </div>
-                            <div className='flex'>
-                                <h6 className='flex gap-2 text-gray-700'>Frete:</h6>
+                            <div className='flex gap-2.5'>
+                                <h6 className='text-gray-700'>Frete:</h6>
                                 <p className='font-normal text-gray-500'>Grátis (acima de R$ 200)</p>
                             </div>
-                            <div className='flex'>
-                                <h6 className='gap-2 text-gray-700'>Total:</h6>
+                            <div className='flex gap-2.5'>
+                                <h6 className='text-gray-700'>Total:</h6>
                                 <p className='font-normal text-gray-500'>R$ 249,90</p>
                             </div>
                         </div>
-                        <h6 className='flex mt-0.5 text-xl justify-center gap-2 text-gray-700'>Status: <p className='px-1.5 text-md text-blue-600 p-1 rounded-2xl font-semibold'>Pedido Enviado</p></h6>
+                        <h6 className='flex mt-0.5 text-xl justify-center items-center gap-2 text-gray-700'>Status: <p className='px-1.5 text-md text-blue-600 p-1 rounded-2xl font-semibold'>Pedido Enviado</p></h6>
                     </div>
 
                     <div className='content-around flex items-center justify-center'>
                         <div className='grid grid-rows-3 gap-0.5 text-lg'>
-                            <div className='flex'>
-                                <h6 className='gap-2 text-gray-700'>Tamanho:</h6>
+                            <div className='flex gap-2.5'>
+                                <h6 className=' text-gray-700'>Tamanho:</h6>
                                 <p className='font-normal text-gray-500'>M</p>
                             </div>
 
-                            <div className='flex'>
-                                <h6 className='gap-2 text-gray-700'>Pedido:</h6>
+                            <div className='flex gap-2.5'>
+                                <h6 className=' text-gray-700'>Pedido:</h6>
                                 <p className='text-gray-500'>#00001</p>
                             </div>
 
-                            <div className='flex'>
-                                <h6 className='gap-2 text-gray-700'>Data:</h6>
+                            <div className='flex gap-2.5'>
+                                <h6 className=' text-gray-700'>Data:</h6>
                                 <p className='text-gray-500'>16/07/2025</p>
                             </div>
                         </div>
@@ -216,39 +216,39 @@ function Pedidos() {
                         <img src={barcelona} className='size-55 rounded-t-xl' />
                     </div>
                     <div className='content-around items-center text-center'>
-                        <h2 className='font-bold text-center text-lg text-gray-800'>Barcelona Edição Especial 25-26</h2>
+                        <h2 className='font-bold text-center text-lg text-gray-800 mb-2'>Barcelona Edição Especial 25-26</h2>
 
                         <div className='grid grid-rows-3 gap-0.5 text-lg justify-center'>
-                            <div className='flex'>
-                                <h6 className='flex gap-2 text-gray-700'>Preço:</h6>
+                            <div className='flex gap-2.5'>
+                                <h6 className='text-gray-700'>Preço:</h6>
                                 <p className='font-normal text-gray-500'>R$ 249,90</p>
                             </div>
-                            <div className='flex'>
-                                <h6 className='flex gap-2 text-gray-700'>Frete:</h6>
+                            <div className='flex gap-2.5'>
+                                <h6 className='text-gray-700'>Frete:</h6>
                                 <p className='font-normal text-gray-500'>Grátis (acima de R$ 200)</p>
                             </div>
-                            <div className='flex'>
-                                <h6 className='gap-2 text-gray-700'>Total:</h6>
+                            <div className='flex gap-2.5'>
+                                <h6 className='text-gray-700'>Total:</h6>
                                 <p className='font-normal text-gray-500'>R$ 249,90</p>
                             </div>
                         </div>
-                        <h6 className='flex mt-0.5 text-xl justify-center gap-2 text-gray-700'>Status: <p className='px-1.5 text-md text-green-600 p-1 rounded-2xl font-semibold'>Pedido Entregue</p></h6>
+                        <h6 className='flex mt-0.5 text-xl justify-center items-center gap-2 text-gray-700'>Status: <p className='px-1.5 text-md text-green-600 p-1 rounded-2xl font-semibold'>Pedido Entregue</p></h6>
                     </div>
 
                     <div className='content-around flex items-center justify-center'>
                         <div className='grid grid-rows-3 gap-0.5 text-lg'>
-                            <div className='flex'>
-                                <h6 className='gap-2 text-gray-700'>Tamanho:</h6>
+                            <div className='flex gap-2.5'>
+                                <h6 className=' text-gray-700'>Tamanho:</h6>
                                 <p className='font-normal text-gray-500'>M</p>
                             </div>
 
-                            <div className='flex'>
-                                <h6 className='gap-2 text-gray-700'>Pedido:</h6>
+                            <div className='flex gap-2.5'>
+                                <h6 className=' text-gray-700'>Pedido:</h6>
                                 <p className='text-gray-500'>#00001</p>
                             </div>
 
-                            <div className='flex'>
-                                <h6 className='gap-2 text-gray-700'>Data:</h6>
+                            <div className='flex gap-2.5'>
+                                <h6 className=' text-gray-700'>Data:</h6>
                                 <p className='text-gray-500'>16/07/2025</p>
                             </div>
                         </div>
@@ -314,39 +314,39 @@ function Pedidos() {
                         <img src={cruzeiro} className='size-55 rounded-t-xl' />
                     </div>
                     <div className='content-around items-center text-center'>
-                        <h2 className='font-bold text-center text-lg text-gray-800'>Cruzeiro Titular 25-26 – Todos Patrocínios</h2>
+                        <h2 className='font-bold text-center text-lg text-gray-800 mb-2'>Cruzeiro Titular 25-26 – Todos Patrocínios</h2>
 
                         <div className='grid grid-rows-3 gap-0.5 text-lg justify-center'>
-                            <div className='flex'>
-                                <h6 className='flex gap-2 text-gray-700'>Preço:</h6>
+                            <div className='flex gap-2.5'>
+                                <h6 className='text-gray-700'>Preço:</h6>
                                 <p className='font-normal text-gray-500'>R$ 249,90</p>
                             </div>
-                            <div className='flex'>
-                                <h6 className='flex gap-2 text-gray-700'>Frete:</h6>
+                            <div className='flex gap-2.5'>
+                                <h6 className='text-gray-700'>Frete:</h6>
                                 <p className='font-normal text-gray-500'>Grátis (acima de R$ 200)</p>
                             </div>
-                            <div className='flex'>
-                                <h6 className='gap-2 text-gray-700'>Total:</h6>
+                            <div className='flex gap-2.5'>
+                                <h6 className='text-gray-700'>Total:</h6>
                                 <p className='font-normal text-gray-500'>R$ 249,90</p>
                             </div>
                         </div>
-                        <h6 className='flex mt-0.5 text-xl justify-center gap-2 text-gray-700'>Status: <p className='px-1.5 text-md text-red-600 p-1 rounded-2xl font-semibold'>Pedido Cancelado</p></h6>
+                        <h6 className='flex mt-0.5 text-xl justify-center items-center gap-2 text-gray-700'>Status: <p className='px-1.5 text-md text-red-600 p-1 rounded-2xl font-semibold'>Pedido Cancelado</p></h6>
                     </div>
 
                     <div className='content-around flex items-center justify-center'>
                         <div className='grid grid-rows-3 gap-0.5 text-lg'>
-                            <div className='flex'>
-                                <h6 className='gap-2 text-gray-700'>Tamanho:</h6>
+                            <div className='flex gap-2.5'>
+                                <h6 className=' text-gray-700'>Tamanho:</h6>
                                 <p className='font-normal text-gray-500'>M</p>
                             </div>
 
-                            <div className='flex'>
-                                <h6 className='gap-2 text-gray-700'>Pedido:</h6>
+                            <div className='flex gap-2.5'>
+                                <h6 className=' text-gray-700'>Pedido:</h6>
                                 <p className='text-gray-500'>#00001</p>
                             </div>
 
-                            <div className='flex'>
-                                <h6 className='gap-2 text-gray-700'>Data:</h6>
+                            <div className='flex gap-2.5'>
+                                <h6 className=' text-gray-700'>Data:</h6>
                                 <p className='text-gray-500'>16/07/2025</p>
                             </div>
                         </div>

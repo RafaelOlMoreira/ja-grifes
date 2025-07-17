@@ -74,7 +74,7 @@ function Navbar() {
                 </svg>
               </button>
               <div className={`font-poppins absolute right-0 top-full z-50 min-w-48 bg-white shadow-lg rounded-md mt-1 transition-all duration-200 ${isUserDropdownOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'}`}>
-                <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">MINHA CONTA</a>
+                <Link to="/Conta" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">MINHA CONTA</Link>
                 <Link to="/Pedidos" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">PEDIDOS</Link>
                 <Link to="/Login" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">ENTRAR</Link>
                 <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">SAIR</a>
