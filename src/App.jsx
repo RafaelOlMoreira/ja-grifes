@@ -9,6 +9,7 @@ import Footer from './components/Footer.jsx';
 import Login from './pages/Login.jsx';
 import Pedidos from './pages/Pedidos.jsx';
 import Conta from './pages/Conta.jsx';
+import Sacola from './pages/Sacola.jsx';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/pedidos" element={<Pedidos />} />
         <Route path="/conta" element={<Conta />} />
+        <Route path="/sacola" element={<Sacola />} />
       </Routes>
     </>
   );
