@@ -59,7 +59,7 @@ function Navbar() {
               <div className={`font-poppins absolute right-0 top-full z-50 min-w-48 bg-white shadow-lg rounded-md mt-1 transition-all duration-200 ${isCartDropdownOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'}`}>
                 <Link to="/Desejos" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">LISTA DE DESEJOS</Link>
                 <Link to="/Sacola" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">VER SACOLA</Link>
-                <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">FINALIZAR COMPRA</a>
+                <Link to="/FinalCompra" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">FINALIZAR COMPRA</Link>
               </div>
             </div>
 
