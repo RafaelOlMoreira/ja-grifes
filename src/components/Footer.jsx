@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
@@ -61,16 +62,16 @@ function Footer() {
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Sobre Você</h2>
                             <ul className="text-gray-600 dark:text-gray-400">
                                 <li className="mb-4">
-                                    <a href="#" className='hover:underline hover:text-gray-200'>Minha Conta</a>
+                                    <Link to="/Conta" className='hover:underline hover:text-gray-200'>Minha Conta</Link>
                                 </li>
                                 <li className="mb-4">
-                                    <a href="#" className='hover:underline hover:text-gray-200'>Lista de Desejos</a>
+                                    <Link to="/Desejos" className='hover:underline hover:text-gray-200'>Lista de Desejos</Link>
                                 </li>
                                 <li className="mb-4">
-                                    <a href="#" className='hover:underline hover:text-gray-200'>Meu Carrinho</a>
+                                    <Link to="/Sacola" className='hover:underline hover:text-gray-200'>Minha Sacola</Link>
                                 </li>
                                 <li className="mb-4">
-                                    <a href="#" className='hover:underline hover:text-gray-200'>Pedidos</a>
+                                    <Link to="/Pedidos" className='hover:underline hover:text-gray-200'>Pedidos</Link>
                                 </li>
                             </ul>
                         </div>
