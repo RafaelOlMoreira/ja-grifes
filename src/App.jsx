@@ -11,6 +11,7 @@ import Pedidos from './pages/Pedidos.jsx';
 import Conta from './pages/Conta.jsx';
 import Sacola from './pages/Sacola.jsx';
 import FinalCompra from './pages/FinalCompra.jsx';
+import Desejos from './pages/Desejos.jsx';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="/conta" element={<Conta />} />
         <Route path="/sacola" element={<Sacola />} />
         <Route path="/finalcompra" element={<FinalCompra />} />
+        <Route path="/desejos" element={<Desejos />} />
       </Routes>
     </>
   );
