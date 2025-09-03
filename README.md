@@ -1,12 +1,27 @@
-# React + Vite
+# JA Grifes — E-commerce de Moda Masculina
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Plataforma front-end moderna para e-commerce de moda masculina. Desenvolvida com **React** e **Vite**, com foco em desempenho, experiência do usuário e código limpo. De fácil integração com APIs, está pronta para deployment via Vercel.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Sobre o Projeto
 
-## Expanding the ESLint configuration
+JA Grifes é um portfólio demonstrativo de uma loja virtual de moda masculina. O objetivo é evidenciar habilidades em desenvolvimento web moderno — com componentes reutilizáveis, carregamento rápido e estrutura preparada para evoluir em funcionalidades como autenticação, carrinho, checkout e integração com APIs de backend.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tecnologias
+
+- **Front-end**: React • Vite • Tailwind CSS  
+- **Ferramentas de Qualidade de Código**: ESLint (configuração pronta sugerida pelo template Vite)  
+- **Deploy**: Vercel (aviável para visualização online)  
+- **Arquivo de configuração**: `vite.config.js`, lint, etc.
+
+---
+
+## Instalação e Execução
+
+Clone o repositório:
+```bash
+git clone https://github.com/RafaelOlMoreira/ja-grifes.git
+cd ja-grifes
